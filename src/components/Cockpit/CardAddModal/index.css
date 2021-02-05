@@ -1,0 +1,51 @@
+.CardAddModal {
+    position: fixed;
+    left: 40%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15rem;
+    height: 25rem;
+    padding: 2px;
+    margin: 0;
+    box-shadow: 0 0 0.5em #000;
+    min-height: 300px;
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+    z-index: 2;
+}
+.CardAddModal input {
+    padding: 8px;
+    display: inline-block;
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 1.5em;
+    min-height: 50px;
+    width: 14rem;
+    background-color: #82acdb;
+    border-radius: 2px;
+    border: none;
+}
+.CardAddModal textarea {
+    resize: none;
+    height: 17rem;
+    width: 14rem;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 8px;
+}
+.CardAddModal .buttonsContainer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.CardAddModal button {
+    background: #82acdb;
+    width: 60px;
+    height: 25px;
+    font-weight: bold;
+    color: white;
+}

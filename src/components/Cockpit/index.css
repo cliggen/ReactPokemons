@@ -1,0 +1,10 @@
+.cockpit {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 2px #eee;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cockpit-tools {
+    display: flex;
+}

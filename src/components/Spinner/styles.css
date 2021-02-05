@@ -1,0 +1,18 @@
+@keyframes rotate360 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+  .spinner {
+    animation: rotate360 1s linear infinite;
+    transform: translateZ(0);
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 7px solid #82acdb;
+    background: transparent;
+    width: 5rem;
+    height: 5rem;
+    margin: 7rem;
+    border-radius: 50%;
+
+    }

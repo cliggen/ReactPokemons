@@ -1,0 +1,42 @@
+.CardCaption {
+    display: flex;
+    justify-content: space-between;
+    background-color: #82acdb;
+    border-radius: 3px;
+}
+.CardCaption h4 {
+    margin: 10px;
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 1.5em;
+    min-height: 50px;
+    width: 12em;
+    max-width: 160px;
+}
+.CardCaption .editTools {
+    width: 60px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.CardCaption .captionEdit {
+    margin: 10px;
+    resize: none;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    overflow: hidden;
+    min-height: 50px;
+    max-width: 160px;
+    background-color: #82acdb;
+    color: #ddd;
+}
+.selectCheckBox {
+    -ms-transform: scale(1.4); /* IE */
+    -moz-transform: scale(1.4); /* FF */
+    -webkit-transform: scale(1.4); /* Safari and Chrome */
+    -o-transform: scale(1.4); /* Opera */
+    transform: scale(1.4);
+    padding: 0;
+}
